@@ -1,0 +1,55 @@
+
+// Navbar
+
+.navbar {
+  margin:15px;
+}
+
+.navbar-default {
+  background: transparent;
+  border: none;
+
+  .navbar-header {
+    .navbar-toggle {
+      .icon-bar {
+        background-color: #ffffff;
+      }
+    }
+    button {
+      border: 1px #fff solid;
+      background-color: rgba(89, 89, 89, 0.5);
+    }
+  }
+
+  .navbar-collapse {
+    border: none;
+    box-shadow: none;
+  }
+
+  border: none;
+  box-shadow: none;
+}
+
+.navbar-nav > li {
+  background: rgba(89, 89, 89, 0.5);
+}
+
+.navbar-default {
+  .navbar-toggle {
+    &:hover, &:focus {
+      background: rgba(89, 89, 89, 0.5);
+    }
+  }
+
+  .navbar-nav > li > a {
+    color: #fff;
+
+    &:active, &:hover, &:focus {
+      color: #fff;
+    }
+  }
+
+  .navbar-toggle {
+    border: none;
+  }
+}

@@ -1,0 +1,22 @@
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+@import "node_modules/swiper/dist/css/swiper";
+
+$background: url('/images/background.png');
+
+body {
+  background-image: $background;
+}
+
+@import "./components/navbar";
+
+@import "./components/cards";
+
+@import "./components/map";
+
+@import "./components/form";
